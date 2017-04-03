@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="103"
+        android:title="About"
+        android:icon="@android:drawable/ic_dialog_info"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_repo"
+        android:orderInCategory="104"
+        android:title="Repository"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:visible="true"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_satelite"
+        android:orderInCategory="104"
+        android:title="Satelite"
+        android:visible="true"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_terrain"
+        android:orderInCategory="104"
+        android:title="Terrain"
+        android:visible="true"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_none"
+        android:orderInCategory="104"
+        android:title="None"
+        android:visible="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_hybrid"
+        android:orderInCategory="104"
+        android:title="Hybrid"
+        android:visible="true"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_normal"
+        android:orderInCategory="104"
+        android:title="Normal"
+        android:visible="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_sync"
+        android:orderInCategory="104"
+        android:title="Sync"
+        android:visible="true"
+        app:showAsAction="never" />
+
+    <!--<item-->
+        <!--android:id="@+id/search"-->
+        <!--android:orderInCategory="101"-->
+        <!--android:title="Search"-->
+        <!--android:visible="true"-->
+        <!--app:showAsAction="never|collapseActionView"-->
+        <!--android:actionViewClass="android.support.v7.widget.SearchView"/>-->
+
+</menu>
